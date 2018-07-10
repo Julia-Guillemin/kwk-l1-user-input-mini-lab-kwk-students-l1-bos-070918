@@ -12,4 +12,5 @@ puts "where would you like to eat"
 eats = gets.chomp.capitalize
 
 # Lastly, puts it all back by interpolating these values in a string.
-
+i would like to #{stay}
+i would like to #{eats}

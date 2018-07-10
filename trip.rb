@@ -15,5 +15,4 @@ puts "how many nights would you stay"
 nights = gets.chomp
 
 # Lastly, puts it all back by interpolating these values in a string.
-"i would like to #{stay}"
-"i would like to #{eats}"
+puts "i would like to #{stay.capitalize} i would like to #{eats} i will stay #{nights}"
